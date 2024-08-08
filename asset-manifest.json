@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/edwinprasetiodotcom/static/css/main.f04b9ca3.css",
-    "main.js": "/edwinprasetiodotcom/static/js/main.8a844f30.js",
+    "main.js": "/edwinprasetiodotcom/static/js/main.d089dded.js",
     "static/js/453.a7d94588.chunk.js": "/edwinprasetiodotcom/static/js/453.a7d94588.chunk.js",
     "index.html": "/edwinprasetiodotcom/index.html",
     "main.f04b9ca3.css.map": "/edwinprasetiodotcom/static/css/main.f04b9ca3.css.map",
-    "main.8a844f30.js.map": "/edwinprasetiodotcom/static/js/main.8a844f30.js.map",
+    "main.d089dded.js.map": "/edwinprasetiodotcom/static/js/main.d089dded.js.map",
     "453.a7d94588.chunk.js.map": "/edwinprasetiodotcom/static/js/453.a7d94588.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f04b9ca3.css",
-    "static/js/main.8a844f30.js"
+    "static/js/main.d089dded.js"
   ]
 }
