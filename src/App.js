@@ -11,22 +11,21 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 
 // drawer
-import Drawer from '@mui/material/Drawer';
-import List from '@mui/material/List';
 import Divider from '@mui/material/Divider';
-import ListItem from '@mui/material/ListItem';
-import ListItemButton from '@mui/material/ListItemButton';
-import ListItemIcon from '@mui/material/ListItemIcon';
-import ListItemText from '@mui/material/ListItemText';
-import InboxIcon from '@mui/icons-material/MoveToInbox';
-import MailIcon from '@mui/icons-material/Mail';
+
+// routes
+import { Routes, Route} from "react-router-dom";
+
+// side navbar
+import { SideNavbar } from "./SideNavbar.js";
 
 
 // styling
 
 import './App.css';
 
-const drawerWidth = 240;
+
+const drawerWidth = 240;    // set the width for the drawer
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -77,58 +76,12 @@ export default function BasicGrid() {
         </Typography>
       </Box>
 
-        <Drawer
-            sx={{
-              width: drawerWidth,
-              flexShrink: 0,
-              '& .MuiDrawer-paper': {
-                width: drawerWidth,
-                boxSizing: 'border-box',
-              },
-            }}
-            variant="permanent"
-            anchor="right"
-        >
-            <Toolbar />
-            <Divider />
-            <List>
-                <ListItem key="main" disablePadding>
-                  <ListItemButton>
-                    <ListItemIcon>
-                      <InboxIcon />
-                    </ListItemIcon>
-                    <ListItemText primary="main" />
-                  </ListItemButton>
-                </ListItem>
-                <ListItem key="Projects" disablePadding>
-                  <ListItemButton>
-                    <ListItemIcon>
-                      <InboxIcon />
-                    </ListItemIcon>
-                    <ListItemText primary="Projects" />
-                  </ListItemButton>
-                </ListItem>
-                <ListItem key="Stacks" disablePadding>
-                  <ListItemButton>
-                    <ListItemIcon>
-                      <InboxIcon />
-                    </ListItemIcon>
-                    <ListItemText primary="Stacks" />
-                  </ListItemButton>
-                </ListItem>
-                <ListItem key="Publications" disablePadding>
-                  <ListItemButton>
-                    <ListItemIcon>
-                      <InboxIcon />
-                    </ListItemIcon>
-                    <ListItemText primary="Publications" />
-                  </ListItemButton>
-                </ListItem>
-            </List>
-            <Divider />
-        </Drawer>
+    <SideNavbar drawerWidth={drawerWidth} />
 
     </Box>
+//    <Routes>
+//        <Route path="/" element={<Home />} />
+//    </Routes>
 
   );
 }
