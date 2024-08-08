@@ -37,10 +37,9 @@
   }
 }
 
-header.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation4.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed.css-lzu4ky-MuiPaper-root-MuiAppBar-root{
+header.MuiPaper-root{
     background-color: transparent;
     color: black;
-    margin-bottom: 10px;
     box-shadow: none;
-    border: none;
+    border: solid #ddd 1px;
 }
