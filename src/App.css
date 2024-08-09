@@ -37,9 +37,38 @@
   }
 }
 
-header.MuiPaper-root{
-    background-color: transparent;
-    color: black;
+header.MuiAppBar-positionFixed{
+    background: #434548;
+    color: #eee;
     box-shadow: none;
-    border: solid #ddd 1px;
+    border: none;
 }
+
+main.MuiBox-root{
+    background: #303134;
+    color: #eee;
+}
+
+p.MuiTypography-root{
+    color: #eee;
+}
+
+
+.MuiPaper-root.MuiPaper-elevation.MuiDrawer-paper.MuiDrawer-paperAnchorRight{
+    background: #434548;
+    color: #eee;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded{
+    background: #434548;
+    color: #eee;
+}
+
+/*
+.MuiToolbar-root{
+    background-color: #434548;
+    color: #eee;
+    box-shadow: none;
+    border: none;
+}
+*/
