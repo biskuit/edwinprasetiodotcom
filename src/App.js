@@ -96,6 +96,10 @@ export default function App() {
             <Container maxWidth="lg">
                 <Projects />
             </Container>
+            <Container maxWidth="lg">
+                <Toolbar />
+                <Toolbar />
+            </Container>
         </Box>
         <SideNavbar drawerWidth={drawerWidth} />
     </Box>
