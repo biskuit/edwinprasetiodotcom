@@ -53,6 +53,14 @@ p.MuiTypography-root{
     color: #eee;
 }
 
+span.MuiTypography-root.MuiTypography-body2.MuiCardHeader-subheader.css-83ijpv-MuiTypography-root {
+    color: #aaa;
+}
+
+button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.css-3ogxn6-MuiButtonBase-root-MuiIconButton-root {
+    color: #aaa;
+}
+
 
 .MuiPaper-root.MuiPaper-elevation.MuiDrawer-paper.MuiDrawer-paperAnchorRight{
     background: #434548;
@@ -64,11 +72,28 @@ p.MuiTypography-root{
     color: #eee;
 }
 
-/*
-.MuiToolbar-root{
-    background-color: #434548;
-    color: #eee;
-    box-shadow: none;
-    border: none;
+.MuiContainer-root.sectionContainer {
+    margin-bottom: 60px
 }
-*/
+
+#about-me-txt {
+    color: skyblue;
+}
+
+#stacks-txt {
+    color: lightgreen;
+}
+
+#projects-txt {
+    color: orange;
+}
+
+#about-me-icon,#projects-icon,#stacks-icon{
+    color: #eee
+}
+
+.MuiChip-root.stacks-chip{
+    border-radius: 4px;
+    margin: 2px;
+    padding: 1px;
+}

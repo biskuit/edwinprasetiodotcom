@@ -52,11 +52,6 @@ export const ProjectCard = ({
             {projectType}
           </Avatar>
         }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
         title={projectTitle}
         subheader={projectDate}
       />

@@ -18,8 +18,10 @@ import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
-import InboxIcon from '@mui/icons-material/MoveToInbox';
-import MailIcon from '@mui/icons-material/Mail';
+
+import AccountBoxIcon from '@mui/icons-material/AccountBox';
+import ReorderIcon from '@mui/icons-material/Reorder';
+import TopicIcon from '@mui/icons-material/Topic';
 
 import { Link } from "react-router-dom"
 
@@ -31,6 +33,12 @@ import { Link } from "react-router-dom"
 export const SideNavbar = ({
     drawerWidth
 }: SideNavbarProps) => {
+
+  function handleClickToScroll(event, targetId){
+    console.log("HandleClickToScroll: ", event, targetId);
+    document.getElementById(targetId).scrollIntoView();
+    return;
+  };
 
   return (
 
@@ -49,38 +57,30 @@ export const SideNavbar = ({
             <Toolbar />
             <Divider />
             <List>
-                <ListItem key="main" disablePadding>
+                <ListItem key="About Me" disablePadding>
                 <Link to="/">
-                      <ListItemButton>
+                      <ListItemButton onClick={(e) => handleClickToScroll(e, 'about-me-grid')}>
                         <ListItemIcon>
-                            <InboxIcon />
+                            <AccountBoxIcon id="about-me-icon" />
                         </ListItemIcon>
-                        <ListItemText primary="main" />
+                        <ListItemText id="about-me-txt" primary="AboutMe" />
                       </ListItemButton>
                   </Link>
                 </ListItem>
-                <ListItem key="Projects" disablePadding>
-                  <ListItemButton>
-                    <ListItemIcon>
-                      <InboxIcon />
-                    </ListItemIcon>
-                    <ListItemText primary="Projects" />
-                  </ListItemButton>
-                </ListItem>
                 <ListItem key="Stacks" disablePadding>
-                  <ListItemButton>
-                    <ListItemIcon>
-                      <InboxIcon />
-                    </ListItemIcon>
-                    <ListItemText primary="Stacks" />
+                    <ListItemButton onClick={(e) => handleClickToScroll(e, 'stacks-grid')}>
+                        <ListItemIcon>
+                          <ReorderIcon id="stacks-icon"/>
+                        </ListItemIcon>
+                        <ListItemText id="stacks-txt" primary="Stacks" />
                   </ListItemButton>
                 </ListItem>
-                <ListItem key="Publications" disablePadding>
-                  <ListItemButton>
+                <ListItem key="Projects" disablePadding>
+                  <ListItemButton onClick={(e) => handleClickToScroll(e, 'projects-grid')}>
                     <ListItemIcon>
-                      <InboxIcon />
+                      <TopicIcon id="projects-icon"/>
                     </ListItemIcon>
-                    <ListItemText primary="Publications" />
+                    <ListItemText id="projects-txt" primary="Projects" />
                   </ListItemButton>
                 </ListItem>
             </List>
