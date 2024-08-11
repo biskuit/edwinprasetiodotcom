@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/edwinprasetiodotcom/static/css/main.7534c239.css",
-    "main.js": "/edwinprasetiodotcom/static/js/main.bf8a64aa.js",
+    "main.js": "/edwinprasetiodotcom/static/js/main.dde4cd95.js",
     "static/js/453.a7d94588.chunk.js": "/edwinprasetiodotcom/static/js/453.a7d94588.chunk.js",
     "static/media/profile.jpg": "/edwinprasetiodotcom/static/media/profile.fb27246728fc06a88f7b.jpg",
     "static/media/audience_logger.jpg": "/edwinprasetiodotcom/static/media/audience_logger.883463edf6247d8a2263.jpg",
@@ -19,11 +19,11 @@
     "static/media/jetbrains-mono-cyrillic-ext-wght-normal.woff2": "/edwinprasetiodotcom/static/media/jetbrains-mono-cyrillic-ext-wght-normal.3c29fbf17c36cbf0e02a.woff2",
     "index.html": "/edwinprasetiodotcom/index.html",
     "main.7534c239.css.map": "/edwinprasetiodotcom/static/css/main.7534c239.css.map",
-    "main.bf8a64aa.js.map": "/edwinprasetiodotcom/static/js/main.bf8a64aa.js.map",
+    "main.dde4cd95.js.map": "/edwinprasetiodotcom/static/js/main.dde4cd95.js.map",
     "453.a7d94588.chunk.js.map": "/edwinprasetiodotcom/static/js/453.a7d94588.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7534c239.css",
-    "static/js/main.bf8a64aa.js"
+    "static/js/main.dde4cd95.js"
   ]
 }
