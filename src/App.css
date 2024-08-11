@@ -53,12 +53,16 @@ p.MuiTypography-root{
     color: #eee;
 }
 
-span.MuiTypography-root.MuiTypography-body2.MuiCardHeader-subheader.css-83ijpv-MuiTypography-root {
+span.MuiTypography-root.MuiTypography-body2.MuiCardHeader-title.css-r402u6-MuiTypography-root{
+    color: #eee;
+}
+
+span.MuiTypography-root.MuiTypography-body2.MuiCardHeader-subheader.css-my4d1j-MuiTypography-root {
     color: #aaa;
 }
 
 button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.css-3ogxn6-MuiButtonBase-root-MuiIconButton-root {
-    color: #aaa;
+    color: #eee;
 }
 
 
