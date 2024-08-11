@@ -64,16 +64,22 @@ button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.css-3ogxn6
 
 .MuiPaper-root.MuiPaper-elevation.MuiDrawer-paper.MuiDrawer-paperAnchorRight{
     background: #434548;
-    color: #eee;
+    color: #aaa;
 }
 
 .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded{
     background: #434548;
-    color: #eee;
+    color: #aaa;
 }
 
-.MuiContainer-root.sectionContainer {
-    margin-bottom: 60px
+.MuiContainer-root.divider-container {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border-color: #ccc;
+}
+
+hr#content-divider {
+    border-color: #555;
 }
 
 #about-me-txt {
@@ -89,7 +95,7 @@ button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.css-3ogxn6
 }
 
 #about-me-icon,#projects-icon,#stacks-icon{
-    color: #eee
+    color: #ddd;
 }
 
 .MuiChip-root.stacks-chip{

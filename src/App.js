@@ -3,6 +3,7 @@ import '@fontsource-variable/jetbrains-mono';
 import { styled, createTheme, ThemeProvider } from '@mui/material/styles';
 
 import Box from '@mui/material/Box';
+import Divider from '@mui/material/Divider';
 import Paper from '@mui/material/Paper';
 import Container from '@mui/material/Container';
 
@@ -76,16 +77,25 @@ export default function App() {
         sx={{ flexGrow: 1, p: 3 , b: 8}}
         >
             <Toolbar />
-            <Container className="sectionContainer" maxWidth="lg">
+            <Container maxWidth="lg">
                 <AboutMe />
             </Container>
-            <Container className="sectionContainer" maxWidth="lg">
+            <Container className="divider-container" maxWidth="lg">
+                <Toolbar />
+                <Divider id="content-divider"/>
+                <Toolbar />
+            </Container>
+            <Container maxWidth="lg">
                 <Stacks />
             </Container>
-            <Container className="sectionContainer" maxWidth="lg">
+            <Container className="divider-container" maxWidth="lg">
+                <Toolbar />
+                <Divider id="content-divider"/>
+                <Toolbar />
+            </Container>
+            <Container maxWidth="lg">
                 <Projects />
             </Container>
-
         </Box>
         <SideNavbar drawerWidth={drawerWidth} />
     </Box>
