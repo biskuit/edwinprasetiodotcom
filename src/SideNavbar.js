@@ -36,7 +36,13 @@ export const SideNavbar = ({
 
   function handleClickToScroll(event, targetId){
     console.log("HandleClickToScroll: ", event, targetId);
-    document.getElementById(targetId).scrollIntoView();
+    //document.getElementById(targetId).scrollIntoView();
+
+    const yOffset = -60;
+    const element = document.getElementById(targetId);
+    const y = element.getBoundingClientRect().top + window.scrollY + yOffset;
+
+    window.scrollTo({top: y, behavior: 'smooth'});
     return;
   };
 
