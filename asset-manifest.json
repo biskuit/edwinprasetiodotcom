@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/edwinprasetiodotcom/static/css/main.bec82b83.css",
-    "main.js": "/edwinprasetiodotcom/static/js/main.83778d4c.js",
+    "main.css": "/edwinprasetiodotcom/static/css/main.7534c239.css",
+    "main.js": "/edwinprasetiodotcom/static/js/main.bf8a64aa.js",
     "static/js/453.a7d94588.chunk.js": "/edwinprasetiodotcom/static/js/453.a7d94588.chunk.js",
     "static/media/profile.jpg": "/edwinprasetiodotcom/static/media/profile.fb27246728fc06a88f7b.jpg",
+    "static/media/audience_logger.jpg": "/edwinprasetiodotcom/static/media/audience_logger.883463edf6247d8a2263.jpg",
+    "static/media/balloons_catcher.jpg": "/edwinprasetiodotcom/static/media/balloons_catcher.3553e7ed097e8d7ced01.jpg",
     "static/media/pixel.jpg": "/edwinprasetiodotcom/static/media/pixel.229657dc82bdd87aba2e.jpg",
+    "static/media/wakker.jpg": "/edwinprasetiodotcom/static/media/wakker.d75c89df62a670fb7940.jpg",
+    "static/media/linefollowerrbt.jpg": "/edwinprasetiodotcom/static/media/linefollowerrbt.679812df6ab27b090f59.jpg",
     "static/media/jetbrains-mono-latin-wght-normal.woff2": "/edwinprasetiodotcom/static/media/jetbrains-mono-latin-wght-normal.45be2ed835b2ed51c5f4.woff2",
+    "static/media/ddr.jpg": "/edwinprasetiodotcom/static/media/ddr.76c08d317b4c2b5560e5.jpg",
+    "static/media/ddrg.jpg": "/edwinprasetiodotcom/static/media/ddrg.4159a60979c200d4697d.jpg",
     "static/media/jetbrains-mono-latin-ext-wght-normal.woff2": "/edwinprasetiodotcom/static/media/jetbrains-mono-latin-ext-wght-normal.10dfb2c6ed8f2cc588c8.woff2",
     "static/media/jetbrains-mono-cyrillic-wght-normal.woff2": "/edwinprasetiodotcom/static/media/jetbrains-mono-cyrillic-wght-normal.f334edc3d01d3fa9edf6.woff2",
     "static/media/jetbrains-mono-greek-wght-normal.woff2": "/edwinprasetiodotcom/static/media/jetbrains-mono-greek-wght-normal.2c05685f1b08a4b1eb54.woff2",
     "static/media/jetbrains-mono-vietnamese-wght-normal.woff2": "/edwinprasetiodotcom/static/media/jetbrains-mono-vietnamese-wght-normal.ef1b01f34506febeda09.woff2",
     "static/media/jetbrains-mono-cyrillic-ext-wght-normal.woff2": "/edwinprasetiodotcom/static/media/jetbrains-mono-cyrillic-ext-wght-normal.3c29fbf17c36cbf0e02a.woff2",
     "index.html": "/edwinprasetiodotcom/index.html",
-    "main.bec82b83.css.map": "/edwinprasetiodotcom/static/css/main.bec82b83.css.map",
-    "main.83778d4c.js.map": "/edwinprasetiodotcom/static/js/main.83778d4c.js.map",
+    "main.7534c239.css.map": "/edwinprasetiodotcom/static/css/main.7534c239.css.map",
+    "main.bf8a64aa.js.map": "/edwinprasetiodotcom/static/js/main.bf8a64aa.js.map",
     "453.a7d94588.chunk.js.map": "/edwinprasetiodotcom/static/js/453.a7d94588.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bec82b83.css",
-    "static/js/main.83778d4c.js"
+    "static/css/main.7534c239.css",
+    "static/js/main.bf8a64aa.js"
   ]
 }
